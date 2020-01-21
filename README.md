@@ -1,7 +1,7 @@
 # laddervm
 
-git clone https://github.com/cloudzun/laddervm
+git clone https://github.com/cloudzun/microk8s
 
-cd laddervm
+cd microk8s
 
 bash setup.sh
