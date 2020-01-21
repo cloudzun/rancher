@@ -1,3 +1,3 @@
 cd
-rm -rf laddervm
-az group delete -n  Ladder --yes
+rm -rf microk8s
+az group delete -n  microk8s --yes
