@@ -1,5 +1,4 @@
-# laddervm
-
+# Rancher
 git clone https://github.com/cloudzun/rancher
 
 cd rancher
