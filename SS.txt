@@ -15,8 +15,5 @@ runcmd:
 
   - curl -sSL https://get.docker.com/ | sh
   - usermod -aG docker chengzh
-  - snap install microk8s --classic
-  - snap alias microk8s.kubectl kubectl
-  - usermod -a -G microk8s chengzh
-  - microk8s.enable dns dashboard
+  - sudo docker run -d --privileged --restart=unless-stopped --net=host -v /etc/kubernetes:/etc/kubernetes -v /var/run:/var/run rancher/rancher-agent:v2.3.4 --server https://rancherhost.chinaeast2.cloudapp.chinacloudapi.cn --token zh6bgwd8xcrk6ddmppc4mr2bj8t866gg28s9rl2hb7d499k8rvf4nh --ca-checksum d756660b0553e405447383739645570f54d3d39f12f2253f698b735ca242591a --etcd --controlplane --worker
 
