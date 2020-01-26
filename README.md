@@ -1,7 +1,7 @@
 # laddervm
 
-git clone https://github.com/cloudzun/microk8s
+git clone https://github.com/cloudzun/rancher
 
-cd microk8s
+cd rancher
 
 bash setup.sh
