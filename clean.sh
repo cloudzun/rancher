@@ -1,3 +1,3 @@
 cd
-rm -rf microk8s
-az group delete -n  microk8s --yes
+rm -rf rancher
+az group delete -n  rancherlab --yes
