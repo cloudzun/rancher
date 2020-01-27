@@ -15,5 +15,5 @@ runcmd:
 
   - curl -sSL https://get.docker.com/ | sh
   - usermod -aG docker chengzh
-  - docker run -d --privileged --restart=unless-stopped --net=host -v /etc/kubernetes:/etc/kubernetes -v /var/run:/var/run rancher/rancher-agent:v2.3.4 --server https://10.0.0.4 --token 87n49gsngmh4vz8bdq5gsqcb5tgr4wlmh59dg9mnbtn2tjkjhrg7nq --ca-checksum 20d838ed5c42f56498e6b2215f9ac3d0c64290c097d11818c5e5175cd5ba294d --etcd --controlplane --worker
+  
 
